@@ -1,0 +1,63 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+}
+
+header{
+	background-color: #C2185B;
+}
+
+.logo{	
+	width: 200px;
+}
+
+
+.nav-link{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+/*
+.container{
+	margin:0;
+*/
+.container{
+	background-color: #00BCD4;
+	/*
+	margin: 0;
+	padding: 20px;
+	min-width: 835px;
+	width: 100vh;*/
+}
+
+
+#porque{
+	background-color: #00BCD4;
+}
+
+h2{
+	font-size: 55px;
+	font-weight: bold;
+	color:#E91E63;
+}
+
+.col-md-6 p{
+	font-size: 20px;
+}
+
+#metodologia, #caixa-metodologia{
+	background-color: #F8BBD0;
+}
+
+#pnl{
+	text-transform: uppercase;
+}
+
+#quem-somos, #caixa-quem-somos{
+	background-color: #757575;
+}
+
+
+
+	
