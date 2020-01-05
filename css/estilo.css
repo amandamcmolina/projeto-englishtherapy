@@ -34,7 +34,7 @@ nav{
 	margin:0;
 */
 .container{
-	background-color: #00BCD4;
+	/*background-color: #00acec;*/
 	/*
 	margin: 0;
 	padding: 20px;
@@ -42,15 +42,25 @@ nav{
 	width: 100vh;*/
 }
 
+#caixa-porque{
+	background-image: url('ceu.jpg');
+	background-repeat: no-repeat;
+}
+
 
 #porque{
-	background-color: #00BCD4;
+	background-image: url(ceu.jpg);
+	background-repeat: no-repeat;
 }
 
 h2{
 	font-size: 45px;
 	font-weight: bold;
 	color: #ca0088;
+}
+
+#imagem-ideia{
+	width: 11em;
 }
 
 p{
