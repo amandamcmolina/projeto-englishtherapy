@@ -79,8 +79,12 @@ p{
 	background-color: #757575;
 }
 
-.perfil-aluno{ 
+/*.perfil-aluno{ 
 	width: 180px;
+}*/
+
+.perfil{
+	background-color: red;
 }
 
 
