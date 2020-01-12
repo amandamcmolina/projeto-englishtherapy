@@ -71,16 +71,19 @@ p{
 	font-size: 1.4;
 }
 
-#metodologia, #caixa-metodologia{
-	background-color: #F8BBD0;
+#metodologia/*, #caixa-metodologia*/{
+	/*background-color: #F8BBD0;*/
+	background-image: linear-gradient(to bottom, white, #F8BBD0);
 }
 
 #pnl{
 	text-transform: uppercase;
 }
 
-#quem-somos, #caixa-quem-somos{
-	background-color: #757575;
+#quem-somos /*#caixa-quem-somos*/{
+	/*background-color: #757575;*/
+	background-image: linear-gradient(to bottom, white, #757575);
+
 }
 
 .perfil-aluno{ 
