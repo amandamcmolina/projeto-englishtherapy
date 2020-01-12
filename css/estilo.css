@@ -5,9 +5,14 @@
 
 header{
 	background-color: #ca0088;
+	/*background-image: linear-gradient(to top, white, #ca0088)*/
 	/*position: fixed;
 	z-index: 100;
 	width: 100%;*/
+	/*background-color:#312d28;
+	background-image: linear-gradient(to right, rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(to right, rgba(255,255,255,.3) 1px, transparent 1px);
+	background-size: 50px 50px, 10px 30px;
+	background-repeat: repeat-x;*/
 }
 h1{
 	color: #00acec;
@@ -73,7 +78,7 @@ p{
 
 #metodologia/*, #caixa-metodologia*/{
 	/*background-color: #F8BBD0;*/
-	background-image: linear-gradient(to bottom, white, #F8BBD0);
+	background-image: linear-gradient(to top, white, #F8BBD0);
 }
 
 #pnl{
@@ -82,7 +87,7 @@ p{
 
 #quem-somos /*#caixa-quem-somos*/{
 	/*background-color: #757575;*/
-	background-image: linear-gradient(to bottom, white, #757575);
+	background-image: linear-gradient(white, #757575);
 
 }
 
