@@ -4,7 +4,9 @@
 }
 
 header{
-	background-color: #ca0088;
+	background-color: #c779a9;
+	overflow: hidden;
+	
 	/*background-image: linear-gradient(to top, white, #ca0088)*/
 	/*position: fixed;
 	z-index: 100;
@@ -15,8 +17,8 @@ header{
 	background-repeat: repeat-x;*/
 }
 h1{
-	color: #00acec;
-	font-size: 40px;
+	color: #20c0fa;
+	font-size: 1.6em;
 }
 
 nav{
@@ -24,19 +26,19 @@ nav{
 }
 
 .logo{	
-	width: 8em;
+	width: 5em;
 }
 
 
-.nav-item{
+/*.nav-item{
 	float: right;
-}
+}*/
 
 .nav-link{
 	text-decoration: none;
 	color: black;
 	font-weight: bold;
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 /*
 .container{
