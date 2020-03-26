@@ -6,18 +6,17 @@
 }
 
 .logo-english{
-    width: 55px;
+    width: 60px;
 }
 
-
-
 header{
-    background-color: rgb(143, 138, 138);
+    background-color: rgb(156, 143, 143);
 }
 
 h1{
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: rgb(78, 198, 228);
+    font-weight: bold;
 }
 
 h2{
@@ -25,12 +24,18 @@ h2{
     color: #ca0088;
     font-size: 2.0em;
 }
-main{
-    background-image: url(img/);
+
+
+
+
+/*INGLÊS*/
+
+#ingles{
+    background-color: rgb(236, 218, 226);
 }
 
 .ideia{
-    width: 65%;
+    width: 70%;
 }
 
 p{
@@ -51,23 +56,20 @@ p{
     border-left: 2px solid #c779a9;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
     box-sizing: border-box;
    }
+/*FIM DO INGLÊS*/
 
 
-.metodologia{
-    background-image: linear-gradient(to top, white, #F8BBD0);
-}
+
+
+
+
+
+/*NOSSO TRABALHO*/
+
+
 
 .img-trabalho{
     width: 90%;
-}
-
-
-.img-pnl{
-    width: 190px;
-}
-
-.card-metodologia{
-    border: none;
 }
 
 .texto-direto{
@@ -75,20 +77,88 @@ p{
     color: #ca0088
 }
 
+/*FIM DO NOSSO TRABALHO*/
+
+
+
+
+
+
+/*METODOLOGIA*/
+
+#metodo{
+    background-color: rgb(176, 192, 191);
+}
+
+.card-metodologia{
+    border:  solid 1px;
+}
+
+.card-header{
+    background-color: rgb(236, 218, 226);
+}
+
+
+
+
+
+/*FIM DA METODOLOGIA*/
+
+
+
+
+
+
+
+/*PNL*/
+
+.img-pnl{
+    width: 190px;
+}
+
+#pnl{
+    background-color: rgb(236, 218, 226);
+}
+/*FIM PNL*/
+
+
+
+
+
+/*QUEMO SOMOS*/
+
 .img-perfil{
     width: 150px;
 }
 
+/*FIM QUEM SOMOS*/
+
+
+
+
+/*CONTATO*/
+
 .icon-contato{
-    width: 15%;
+    width: 18%;
 }
 
 .contato-principal{
-    height: 60%;
     object-fit: cover;  
     object-position: 20% 0;
 }
 
+#contato{
+    background-color: rgba(223, 219, 12, 0.76);
+}
+
+
 .entre-contato{
     font-size: 1.2em;
 }
+/*FIM CONTATO*/
+
+footer{
+    background-color: rgb(175, 155, 155);
+}
+
+
