@@ -1,116 +1,94 @@
 *{
-	box-sizing: border-box;
-	font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
 }
+
+.logo-english{
+    width: 55px;
+}
+
+
 
 header{
-	background-color: #c779a9;
-	overflow: hidden;
-	
-	/*background-image: linear-gradient(to top, white, #ca0088)*/
-	/*position: fixed;
-	z-index: 100;
-	width: 100%;*/
-	/*background-color:#312d28;
-	background-image: linear-gradient(to right, rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(to right, rgba(255,255,255,.3) 1px, transparent 1px);
-	background-size: 50px 50px, 10px 30px;
-	background-repeat: repeat-x;*/
+    background-color: rgb(143, 138, 138);
 }
+
 h1{
-	color: #20c0fa;
-	font-size: 1.6em;
-}
-
-nav{
-	float: right;
-}
-
-.logo{	
-	width: 5em;
-}
-
-
-/*.nav-item{
-	float: right;
-}*/
-
-.nav-link{
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
-	font-size: 1.1em;
-}
-/*
-.container{
-	margin:0;
-*/
-
-
-#caixa-porque{
-	background-image: url('ceu.jpg');
-	background-repeat: no-repeat;
-}
-
-
-#porque{
-	background-image: url(ceu.jpg);
-	background-repeat: no-repeat;
+    font-size: 1.4em;
+    color: rgb(78, 198, 228);
 }
 
 h2{
-	font-size: 1.8em;
-	font-weight: bold;
-	color: #ca0088;
+    font-weight: bold;
+    color: #ca0088;
+    font-size: 2.0em;
+}
+main{
+    background-image: url(img/);
 }
 
-#imagem-ideia{
-	width: 11em;
+.ideia{
+    width: 65%;
 }
 
 p{
-	font-size: 1.4;
+    font-size: 1em;
 }
 
-#metodologia/*, #caixa-metodologia*/{
-	/*background-color: #F8BBD0;*/
-	background-image: linear-gradient(to top, white, #F8BBD0);
+.razao{
+    background-color: #c779a9;
 }
 
-#pnl{
-	text-transform: uppercase;
+.box {
+    width: 5%;
+    float: left;
+    height: 100%;/*Altura da linha*/
+   }
+   
+   .linha-vertical {
+    border-left: 2px solid #c779a9;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    box-sizing: border-box;
+   }
+
+
+.metodologia{
+    background-image: linear-gradient(to top, white, #F8BBD0);
 }
 
-#quem-somos /*#caixa-quem-somos*/{
-	/*background-color: #757575;*/
-	background-image: linear-gradient(white, #757575);
-	/*background-color:#4fd8e8;/*
-	/*background-image: linear-gradient(to bottom, rgba(255,255,255,.1), 
-	rgba(255,255,255,.4), rgba(255,255,255,0), rgba(255,255,255,.4));*/
-}
-
-.perfil-aluno{ 
-	width: 160px;
-	border: 4px solid black;
-    border-radius: 50%;
-}
-
-h4{
-	font-size: 20px;
-	display: inline-block;
-	padding: 20px;
+.img-trabalho{
+    width: 90%;
 }
 
 
-#contato, #caixa-contato{
-	background-color: #F8BBD0;
+.img-pnl{
+    width: 190px;
 }
 
-footer, #caixa-rodape{
-	background-color: #C2185B;
+.card-metodologia{
+    border: none;
 }
 
+.texto-direto{
+    font-size: 1.2em;
+    color: #ca0088
+}
 
+.img-perfil{
+    width: 150px;
+}
 
+.icon-contato{
+    width: 15%;
+}
 
+.contato-principal{
+    height: 78%;
+    object-fit: cover;  
+    object-position: 20% 0;
+}
 
-	
+.entre-contato{
+    font-size: 1.2em;
+}
