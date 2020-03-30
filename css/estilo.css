@@ -5,12 +5,27 @@
     font-family: 'Merriweather', serif;
 }
 
+
+main{
+    width: 100%;
+    margin-top: 95px;
+    top: 84.97px;
+    left: 0;
+    position: relative;
+    margin-top: 0;
+}
+
 .logo-english{
-    width: 60px;
+    width: 53px;
 }
 
 header{
     background-color: rgb(156, 143, 143);
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index:1;
 }
 
 h1{
@@ -31,7 +46,12 @@ h2{
 /*INGLÊS*/
 
 #ingles{
-    background-color: rgb(236, 218, 226);
+    /*background-color: rgb(236, 218, 226);*/   
+    /*background-image: linear-gradient(#C074B2, #8AB5E8);*/
+    background-image: linear-gradient(rgb(236, 218, 226), white);
+    padding-top: 61px;
+
+   
 }
 
 .ideia{
@@ -43,7 +63,7 @@ p{
 }
 
 .razao{
-    background-color: #c779a9;
+    background-color: rgb(78, 198, 228);
 }
 
 .box {
@@ -69,12 +89,17 @@ p{
 
 
 .img-trabalho{
-    width: 90%;
+    width: 100%;
 }
 
 .texto-direto{
     font-size: 1.2em;
     color: #ca0088
+}
+
+#nosso-trabalho{
+    background-image: linear-gradient(white, rgb(176, 192, 191));
+    padding-top: 61px;
 }
 
 /*FIM DO NOSSO TRABALHO*/
@@ -87,8 +112,12 @@ p{
 /*METODOLOGIA*/
 
 #metodo{
-    background-color: rgb(176, 192, 191);
+    background-color: rgb(134, 156, 156);
+    /*background-image: linear-gradient(rgb(176, 192, 191), white);*/
+    padding-top: 60px;
+    
 }
+
 
 .card-metodologia{
     border:  solid 1px;
@@ -118,6 +147,7 @@ p{
 
 #pnl{
     background-color: rgb(236, 218, 226);
+    padding-top: 75px;
 }
 /*FIM PNL*/
 
@@ -129,6 +159,16 @@ p{
 
 .img-perfil{
     width: 150px;
+}
+
+.formacao{
+    color: rgb(78, 198, 228);
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#quem-somos{
+    padding-top: 74px;
 }
 
 /*FIM QUEM SOMOS*/
@@ -148,7 +188,10 @@ p{
 }
 
 #contato{
-    background-color: rgba(223, 219, 12, 0.76);
+    background-color: rgba(245, 211, 20, 0.76);
+    /*background-image: url("https://i0.wp.com/voltemosaoevangelho.com/blog/wp-content/uploads/2019/08/O-que-na%CC%83o-havera%CC%81-no-ce%CC%81u-1.jpg?resize=856%2C394&ssl=1");
+    background-repeat: no-repeat;*/
+    padding-top: 77px;
 }
 
 
@@ -159,6 +202,8 @@ p{
 
 footer{
     background-color: rgb(175, 155, 155);
+    position: relative;
+    bottom: -50px;
 }
 
 
